@@ -1,117 +1,3 @@
-/* .top-contact {
-    background-color: #fff;
-}
-
-.page-name {
-    font-size: 26px;
-    font-weight: 800;
-    color: #58595b;
-}
-
-.line {
-    width: 45px;
-    height: 2px;
-    background-color: #a1a1a1;
-}
-
-.content-page-contact {
-    padding: 25px 0;
-}
-
-.add-footer1 {
-    padding-left: 20px;
-    color: #4d4d4f;
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-.phone-footer1 {
-    padding-left: 20px;
-    color: #4d4d4f;
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-.email-footer1 {
-    padding-left: 20px;
-    color: #4d4d4f;
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-.c30 {
-    clear: both;
-    height: 30px;
-}
-
-.hd-page-contact {
-    background-color: #002bab;
-    font-size: 16px;
-    font-weight: 700;
-    color: #fff;
-    padding: 12px 15px;
-    -webkit-border-radius: 6px 6px 0 0;
-    border-radius: 6px 6px 0 0;
-}
-
-.inner-frm {
-    background-color: #ebebeb;
-    padding: 20px;
-}
-
-input,
-button,
-select,
-optgroup,
-textarea {
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-}
-
-button,
-input {
-    overflow: visible;
-}
-
-.mes-frm {
-    margin-bottom: 8px;
-    color: #f00;
-    font-style: italic;
-    font-size: 12px;
-}
-
-.inner-frm .form-control {
-    border: none;
-}
-
-.error {
-    border: solid 1px #d0ae45;
-}
-
-button.btn.btn-frm {
-    padding: 10px 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    display: inline-block;
-    width: auto;
-    outline: none !important;
-    background: linear-gradient(#0e95c9, #1068a4);
-    color: red;
-    font-size: 16px;
-    border: none;
-}
-
-.msgbox {
-    margin-top: 5px;
-    color: #f00;
-    font-style: italic;
-    font-size: 12px;
-}
-
-*/
-
 .content-first h3 {
     color: #3498db;
     font-weight: 700;
@@ -125,4 +11,13 @@ button.btn.btn-frm {
     font-weight: 700;
     font-size: 1.1em;
     color: #fff;
+}
+
+button.btn.btn-frm.btn-send {
+    background: linear-gradient(#0e95c9, #1068a4);
+    border-radius: 5px;
+    padding: 6px;
+    font-weight: 700;
+    font-size: 1em;
+    color: #ffff;
 }
