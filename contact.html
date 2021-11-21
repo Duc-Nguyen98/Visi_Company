@@ -3,17 +3,16 @@
 
 <head>
     <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/contact.css">
-    <link rel="stylesheet" href="assets/css/social.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/contact.css" />
+    <link rel="stylesheet" href="assets/css/social.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="assets/js/slide.js"></script>
-
 </head>
 
 <body>
@@ -22,8 +21,8 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
@@ -38,7 +37,7 @@
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
             </div>
@@ -52,40 +51,38 @@
         <!--!! Content Start -->
         <div class="row">
             <div class="col-sm-12 content-first">
-                <h3>VISI - Công Ty Cổ Phần Mô Phỏng và Tích hợp Việt Nam </h3>
+                <h3>VISI - Công Ty Cổ Phần Mô Phỏng và Tích hợp Việt Nam</h3>
                 <p>Địa chỉ: Tầng 18A, tòa nhà MHDI, số 68 Nguyễn Cơ Thạch, Nam Từ Liêm, Hà Nội</p>
                 <p>Điện thoại: 0911 392 019</p>
                 <p>Email: support@visi.com.vn/linhnt@visi.com.vn</p>
             </div>
 
-            <div class="col col-lg-5 col-md-6 col-12 ">
+            <div class="col col-lg-5 col-md-6 col-12">
                 <div class="hd-page-contact">Form liên hệ</div>
                 <div class="inner-frm ih shadow p-3 mb-5 bg-light rounded">
                     <form action="/index4.php?page=contact&amp;lang=" method="post" id="contactform" onsubmit="return check_contact('contactform');">
-                        <input type="hidden" name="code" value="save">
-                        <input type="hidden" name="titlefrm" value="Thông tin liên hệ">
+                        <input type="hidden" name="code" value="save" />
+                        <input type="hidden" name="titlefrm" value="Thông tin liên hệ" />
                         <div class="frm-contact">
-
                             <div class="mes-frm text-danger mb-3">Các trường được đánh dấu * là bắt buộc</div>
                             <div class="">
                                 <div class="waiting"></div>
                                 <div class="form-group">
-                                    <input type="text" placeholder="Họ và tên (*)" name="yourname" required class="form-control notNull">
+                                    <input type="text" placeholder="Họ và tên (*)" name="yourname" required class="form-control notNull" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" placeholder="Địa chỉ (*)" name="yourname" required class="form-control notNull">
+                                    <input type="text" placeholder="Địa chỉ (*)" name="yourname" required class="form-control notNull" />
                                 </div>
-
 
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12">
                                         <div class="form-group">
-                                            <input type="email" name="email" placeholder="Email (*)" required class="form-control notNull">
+                                            <input type="email" name="email" placeholder="Email (*)" required class="form-control notNull" />
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-12">
                                         <div class="form-group">
-                                            <input type="tel" name="phone" placeholder="Số điện thoại (*)" required class="form-control notNull">
+                                            <input type="tel" name="phone" placeholder="Số điện thoại (*)" required class="form-control notNull" />
                                         </div>
                                     </div>
                                 </div>
@@ -95,7 +92,7 @@
                                 </div>
 
                                 <div class="form-group input-group">
-                                    <button type="submit" class="btn btn-frm btn-send text-center ">Gửi Yêu Cầu</button>
+                                    <button type="submit" class="btn btn-frm btn-send text-center">Gửi Yêu Cầu</button>
                                 </div>
                                 <div id="msgbox_contactform" class="msgbox"></div>
                             </div>
@@ -103,63 +100,16 @@
                     </form>
                 </div>
             </div>
-            <!-- <div class="col-lg-5 col-md-6 col-12">
-                <div class="hd-page-contact">Form liên hệ</div>
-                <div class="inner-frm ih" style="height: 366px;">
-                    <form action="/index4.php?page=contact&amp;lang=" method="post" id="contactform" onsubmit="return check_contact('contactform');">
-                        <input type="hidden" name="code" value="save">
-                        <input type="hidden" name="titlefrm" value="Thông tin liên hệ">
-                        <div class="frm-contact">
-
-                            <div class="mes-frm">Các trường được đánh dấu * là bắt buộc</div>
-                            <div class="">
-                                <div class="waiting"></div>
-                                <div class="form-group">
-                                    <input type="text" placeholder="Họ và tên (*)" name="yourname" required class="form-control notNull">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" placeholder="Địa chỉ (*)" name="yourname" required class="form-control notNull">
-                                </div>
-
-
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-12">
-                                        <div class="form-group">
-                                            <input type="email" name="email" placeholder="Email (*)" required class="form-control notNull">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-12">
-                                        <div class="form-group">
-                                            <input type="tel" name="phone" placeholder="Số điện thoại (*)" required class="form-control notNull">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <textarea name="other_request" type="text" placeholder="Yêu cầu" class="form-control"></textarea>
-                                </div>
-
-                                <div class="form-group input-group">
-                                    <button type="submit" class="btn btn-frm">Gửi</button>
-                                </div>
-                                <div id="msgbox_contactform" class="msgbox"></div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div> -->
 
             <div class="col-lg-7 col-md-6 col-12">
                 <div class="hd-page-contact">Bản đồ liên hệ</div>
-                <div class="map ih shadow  mb-5 bg-light rounded" style="overflow: hidden; height: 366px;">
+                <div class="map ih shadow mb-5 bg-light rounded" style="overflow: hidden; height: 366px;">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d59583.39119883444!2d105.73019703725345!3d21.034208427443826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x313454b949b99a1f%3A0x41c030df71993011!2zVOG7lW5nIEPDtG5nIFR5IMSQ4bqndSBUxrAgUGjDoXQgVHJp4buDbiBOaMOgIFbDoCDEkMO0IFRo4buLIELhu5kgUXXhu5FjIFBow7JuZyAoTUhESSksIFThuqduZyAxIFRvw6AgbmjDoCBNRCBDT01QTEVYIFRPV0VSLCBz4buRIDY4IE5ndXnhu4VuIEPGoSBUaOG6oWNoIEvEkFQsIE3hu7kgxJDDrG5oIDEsIE5hbSBU4burIExpw6ptLCBIw6AgTuG7mWkgMTAwMDAwLCBWaeG7h3QgTmFt!3m2!1d21.0341319!2d105.7652165!4m5!1s0x313454b949b99a1f%3A0x41c030df71993011!2zVOG7lW5nIEPDtG5nIFR5IMSQ4bqndSBUxrAgUGjDoXQgVHJp4buDbiBOaMOgIFbDoCDEkMO0IFRo4buLIELhu5kgUXXhu5FjIFBow7JuZyAoTUhESSksIFThuqduZyAxIFRvw6AgbmjDoCBNRCBDT01QTEVYIFRPV0VSLCBz4buRIDY4IE5ndXnhu4VuIEPGoSBUaOG6oWNoIEvEkFQsIE3hu7kgxJDDrG5oIDEsIE5hbSBU4burIExpw6ptLCBIw6AgTuG7mWkgMTAwMDAwLCBWaeG7h3QgTmFt!3m2!1d21.0341319!2d105.7652165!5e0!3m2!1svi!2s!4v1636880071851!5m2!1svi!2s"
-                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        width="100%" height="100%" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
-
         </div>
         <!--!! Content End -->
-
 
         <!-- !! Footer End -->
 
@@ -168,7 +118,7 @@
             <ul id="menu" class="mfb-component--br mfb-zoomin" data-mfb-toggle="hover">
                 <li class="mfb-component__wrap">
                     <a href="#" class="mfb-component__button--main" data-mfb-label="Quick Nav">
-                        <img width="100%" src="https://youhomes.vn/templates/images/button-action/icon-yh-active.svg" alt="">
+                        <img width="100%" src="https://youhomes.vn/templates/images/button-action/icon-yh-active.svg" alt="" />
                         <i class="mfb-component__main-icon--resting ion-plus-round"></i>
                         <i class="mfb-component__main-icon--active ion-close-round"></i>
                     </a>
@@ -176,32 +126,39 @@
                         <li>
                             <a href="#" class="mfb-component__button--child">
                                 <svg fill="#0577a3" height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg">
-                            <g id="_35_Up" data-name="35 Up">
-                                <path d="m4.1934 18.3809 11-14.999a1.0371 1.0371 0 0 1 1.6133 0l11 14.999a1.01 1.01 0 0 1 -1.2314 1.4971l-10.5753-4.9688-10.5752 4.9687a1.0078 1.0078 0 0 1 -1.2314-1.497zm23.21 3.543-10.9044-4.8116a.99.99 0 0 0 -.8008-.002l-11.0957 4.8116a.9984.9984 0 0 0 -.6025.917v5.1885a1.0151 1.0151 0 0 0 1.3945.9189l10.7891-4.6377 10.41 4.6328a1.01 1.01 0 0 0 1.4064-.9141v-5.1884a.9991.9991 0 0 0 -.5967-.9151z"/>
-                            </g>
-                        </svg>
+                                        <g id="_35_Up" data-name="35 Up">
+                                            <path
+                                                d="m4.1934 18.3809 11-14.999a1.0371 1.0371 0 0 1 1.6133 0l11 14.999a1.01 1.01 0 0 1 -1.2314 1.4971l-10.5753-4.9688-10.5752 4.9687a1.0078 1.0078 0 0 1 -1.2314-1.497zm23.21 3.543-10.9044-4.8116a.99.99 0 0 0 -.8008-.002l-11.0957 4.8116a.9984.9984 0 0 0 -.6025.917v5.1885a1.0151 1.0151 0 0 0 1.3945.9189l10.7891-4.6377 10.41 4.6328a1.01 1.01 0 0 0 1.4064-.9141v-5.1884a.9991.9991 0 0 0 -.5967-.9151z"
+                                            />
+                                        </g>
+                                    </svg>
                             </a>
                         </li>
                         <li>
                             <a href="https://www.facebook.com/visi.com.vn/inbox" target="_blank" class="mfb-component__button--child">
                                 <svg fill="#0577a3" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                            <g id="Layer_2" data-name="Layer 2">
-                                <path d="m27.67 3.13h-23.34a3.34 3.34 0 0 0 -3.33 3.33v15.33a3.34 3.34 0 0 0 3.33 3.34h2.67l1.92 3a1.48 1.48 0 0 0 1.27.7 1.52 1.52 0 0 0 1.28-.73l1.82-3h14.38a3.34 3.34 0 0 0 3.33-3.31v-15.33a3.34 3.34 0 0 0 -3.33-3.33zm-6.67 9h-10a1 1 0 0 1 -1-1 1 1 0 0 1 1-1h10a1 1 0 0 1 1 1 1 1 0 0 1 -1 1zm1 4.55a1 1 0 0 1 -1 1h-10a1 1 0 0 1 0-2h10a1 1 0 0 1 1 1z"/>
-                            </g>
-                        </svg>
+                                        <g id="Layer_2" data-name="Layer 2">
+                                            <path
+                                                d="m27.67 3.13h-23.34a3.34 3.34 0 0 0 -3.33 3.33v15.33a3.34 3.34 0 0 0 3.33 3.34h2.67l1.92 3a1.48 1.48 0 0 0 1.27.7 1.52 1.52 0 0 0 1.28-.73l1.82-3h14.38a3.34 3.34 0 0 0 3.33-3.31v-15.33a3.34 3.34 0 0 0 -3.33-3.33zm-6.67 9h-10a1 1 0 0 1 -1-1 1 1 0 0 1 1-1h10a1 1 0 0 1 1 1 1 1 0 0 1 -1 1zm1 4.55a1 1 0 0 1 -1 1h-10a1 1 0 0 1 0-2h10a1 1 0 0 1 1 1z"
+                                            />
+                                        </g>
+                                    </svg>
                             </a>
                         </li>
 
                         <li>
-
                             <a href="
-                    https://mail.google.com/mail/?view=cm&fs=1&to=linhnt@visi.com.vn&su=subject_here&body=body_here" target="_blank " class="mfb-component__button--child ">
+                    https://mail.google.com/mail/?view=cm&fs=1&to=linhnt@visi.com.vn&su=subject_here&body=body_here" target="_blank " class="mfb-component__button--child">
                                 <svg fill="#0577a3 " id="Layer_1 " enable-background="new 0 0 512 512 " viewBox="0 0 512 512 " xmlns="http://www.w3.org/2000/svg ">
-                            <path d="m298.789 313.693c-12.738 8.492-27.534 12.981-42.789 12.981-15.254 0-30.05-4.489-42.788-12.981l-209.803-139.873c-1.164-.776-2.298-1.585-3.409-2.417v229.197c0
-                            26.278 21.325 47.133 47.133 47.133h417.733c26.278 0 47.133-21.325 47.133-47.133v-229.198c-1.113.834-2.249 1.645-3.416 2.422z "/>
-                            <path d="m20.05 148.858 209.803 139.874c7.942 5.295 17.044 7.942 26.146 7.942 9.103 0 18.206-2.648
-                            26.148-7.942l209.803-139.874c12.555-8.365 20.05-22.365 20.05-37.475 0-25.981-21.137-47.117-47.117-47.117h-417.766c-25.98.001-47.117 21.137-47.117 47.142 0 15.085 7.496 29.085 20.05 37.45z "/>
-                        </svg>
+                                        <path
+                                            d="m298.789 313.693c-12.738 8.492-27.534 12.981-42.789 12.981-15.254 0-30.05-4.489-42.788-12.981l-209.803-139.873c-1.164-.776-2.298-1.585-3.409-2.417v229.197c0
+                            26.278 21.325 47.133 47.133 47.133h417.733c26.278 0 47.133-21.325 47.133-47.133v-229.198c-1.113.834-2.249 1.645-3.416 2.422z "
+                                        />
+                                        <path
+                                            d="m20.05 148.858 209.803 139.874c7.942 5.295 17.044 7.942 26.146 7.942 9.103 0 18.206-2.648
+                            26.148-7.942l209.803-139.874c12.555-8.365 20.05-22.365 20.05-37.475 0-25.981-21.137-47.117-47.117-47.117h-417.766c-25.98.001-47.117 21.137-47.117 47.142 0 15.085 7.496 29.085 20.05 37.45z "
+                                        />
+                                    </svg>
                             </a>
                         </li>
                     </ul>
@@ -209,39 +166,88 @@
             </ul>
         </div>
         <!-- !! Contact Social End -->
-
     </div>
     <!-- !! Footer Begin -->
     <div id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-3">
-                    <p>THÔNG TIN LIÊN HỆ
+                    <h6>THÔNG TIN LIÊN HỆ</h6>
+                    <ul class="list-unstyled">
+                        <li>Liên hệ văn phòng VISI hoặc gọi điện cho chúng tôi để nhận được tư vấn và hỗ trợ một cách nhanh nhất</li>
+                        <li> Tầng 18A, tòa nhà MHDI, số 68 Nguyễn Cơ Thạch, Nam Từ Liêm, Hà Nội</li>
+                        <li> support@visi.com.vn/linhnt@visi.com.vn
+                        </li>
+                        <li>0911 392 019</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h6>GIỚI THIỆU</h6>
+                    <ul class="list-unstyled">
+                        <li>Giới thiệu chung</li>
+                        <li>Sứ mệnh và tầm nhìn</li>
+                        <li>Văn hóa doanh nghiệp</li>
 
-                    </p>
-                </div>
-                <div class="col-3">
-                    <p>GIỚI THIỆU
 
-                    </p>
+                    </ul>
                 </div>
                 <div class="col-3">
-                    <p>SẢN PHẨM</p>
+                    <h6>SẢN PHẨM</h6>
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>Liên hệ văn phòng VISI hoặc gọi điện cho chúng tôi để nhận được tư vấn và hỗ trợ một cách nhanh nhất</p>
+                        </li>
+                        <li>
+                            <svg enable-background="new 0 0 512 512" fill="#ffffff" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <path d="m407.579 87.677c-31.073-53.624-86.265-86.385-147.64-87.637-2.62-.054-5.257-.054-7.878 0-61.374 1.252-116.566 34.013-147.64 87.637-31.762 54.812-32.631 120.652-2.325 176.123l126.963 232.387c.057.103.114.206.173.308 5.586 9.709 15.593 15.505 26.77 15.505 11.176 0 21.183-5.797 26.768-15.505.059-.102.116-.205.173-.308l126.963-232.387c30.304-55.471 29.435-121.311-2.327-176.123zm-151.579 144.323c-39.701 0-72-32.299-72-72s32.299-72 72-72 72 32.299 72 72-32.298 72-72 72z"/>
+                            </g>
+                        </svg> Tầng 18A, tòa nhà MHDI, số 68 Nguyễn Cơ Thạch, Nam Từ Liêm, Hà Nội
+                        </li>
+                        <li>
+                            <svg id="Capa_1" enable-background="new 0 0 512 512" fill="#ffffff" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <path d="m471.647 176.983v-78.568l-98.811-98.415h-199.071v177.009l-40.353.004v-60.2h-133.059l-.353 395.187h512v-335.021zm-90-125.835 38.675 38.52h-38.675zm-177.882-21.104h147.882v89.668h90v57.273l-237.882.021zm-173.412 116.813h73.059v335.099h-73.059zm451.647 335.099h-348.588v-274.899l348.588-.032z"/>
+                                <path d="m417 235.45h-218.588v99.133h218.588zm-30 69.09h-158.588v-39.045h158.588z"/>
+                                <path d="m198.412 365.41h30v30.044h-30z"/>
+                                <path d="m261.274 365.41h30v30.044h-30z"/>
+                                <path d="m324.137 365.41h30v30.044h-30z"/>
+                                <path d="m387 365.41h30v30.044h-30z"/>
+                                <path d="m198.412 421.483h30v30.044h-30z"/>
+                                <path d="m261.274 421.483h30v30.044h-30z"/>
+                                <path d="m324.137 421.483h30v30.044h-30z"/>
+                                <path d="m387 421.483h30v30.044h-30z"/>
+                            </g>
+                        </svg> support@visi.com.vn/
+                            <br><a class="email" href="linhnt@visi.com.vn">linhnt@visi.com.vn</a>
+                        </li>
+                        <li>
+                            <svg fill="#ffffff" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m30.035 22.6c-.082-.065-6.035-4.356-7.669-4.048-.78.138-1.226.67-2.121 1.735-.144.172-.49.584-.759.877a12.517 12.517 0 0 1 -1.651-.672 13.7 13.7 0 0 1 -6.321-6.321 12.458 12.458 0 0 1 -.672-1.651c.294-.27.706-.616.882-.764 1.06-.89 1.593-1.336 1.731-2.118.283-1.62-4.005-7.614-4.05-7.668a2.289 2.289 0 0 0 -1.705-.97c-1.738 0-6.7 6.437-6.7 7.521 0 .063.091 6.467 7.988 14.5 8.025 7.888 14.428 7.979 14.491 7.979 1.085 0 7.521-4.962 7.521-6.7a2.283 2.283 0 0 0 -.965-1.7z"/>
+                        </svg> 0911 392 019
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-3">
-                    <p>ĐĂNG KÝ NHẬN TIN</p>
+                    <h6>ĐĂNG KÝ NHẬN TIN</h5>
+                        <ul class="list-unstyled">
+                            <li>Integer molestie lorem at massa</li>
+                            <li>Faucibus porta lacus fringilla vel</li>
+                            <li>Eget porttitor lorem</li>
+                        </ul>
                 </div>
             </div>
         </div>
     </div>
     <div id="footer-bottom">
         <div class="container">
-
             <div class="row">
                 <div class="col-sm-12">
                     <div class="row">
-                        <div class="col-12  text-center">
-                            <p>Copyright ©2021. All rights reserved <a href="https://www.facebook.com/visi.com.vn" target="_blank"><span>Visi Company</span></a>. Designed by <a href="https://temis.vn/"><span>Temis.vn</span></a></p>
+                        <div class="col-12 text-center">
+                            <p>
+                                Copyright ©2021. All rights reserved <a href="https://www.facebook.com/visi.com.vn" target="_blank"><span>Visi Company</span></a>. Designed by <a href="https://temis.vn/"><span>Temis.vn</span></a>
+                            </p>
                         </div>
                     </div>
                 </div>
