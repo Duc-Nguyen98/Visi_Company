@@ -196,3 +196,17 @@
     margin-top: 18px;
     padding-left: 40px;
 }
+
+#footer a {
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+#footer li a:hover {
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+#footer a.email {
+    color: #f9b10a;
+}
