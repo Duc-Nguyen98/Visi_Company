@@ -1,6 +1,5 @@
 #footer {
     background: url("../images/footer.jpg"), #1d428a;
-    /* padding: 60px 0 70px; */
     position: relative;
     overflow: hidden;
 }
@@ -172,7 +171,6 @@
 
 #footer-bottom {
     background: #143678;
-    /* height: 50px; */
 }
 
 #footer-bottom .left,
